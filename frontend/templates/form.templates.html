@@ -1,0 +1,22 @@
+<div class="card">
+    <h4>Adicionar Usuário </h4>
+    <form ng-submit="addUsuario()">
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control" id="nome" ng-model="novoUsuario.nome" placeholder="Seu Nome"
+                required>
+        </div>
+        <div class="form-group">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" class="form-control" id="telefone" ng-model="novoUsuario.telefone"
+                placeholder="(00) 0000-0000" required>
+        </div>
+        <div class="form-group">
+            <label for="idade">Idade:</label>
+            <input type="text" class="form-control" id="idade" ng-model="novoUsuario.idade" placeholder="25" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Salvar</button>
+
+
+    </form>
+</div>

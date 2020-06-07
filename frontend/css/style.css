@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card {
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+
+h4 {
+    color: #2c3e50;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.form-group .form-control {
+    margin: 0px auto;
+    width: 40%;
+
+}
+
+.form-group label {
+    display: block;
+    font-weight: 400;
+}
+
+button.btn.btn-primary,
+.form-group label {
+    margin-left: 335px;
+
+}
+
+button.btn.btn-primary {
+    background: #2c3e50;
+    ;
+}
