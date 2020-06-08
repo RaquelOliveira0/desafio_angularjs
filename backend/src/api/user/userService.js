@@ -1,5 +1,5 @@
-const User = require('./user');
+const User = require('./user')
 
-User.methods(['get', 'post', 'put', 'delete']);
+User.methods(['get', 'post', 'put', 'delete'])
 
-module.exports = User;
+module.exports = User
