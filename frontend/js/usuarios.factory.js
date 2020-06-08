@@ -6,11 +6,11 @@ angular.module('usuarios').factory("UsuariosFactory", function ($q, $http) {
         function (result) {
           var usuarios = [];
           angular.forEach(result.data, function (usuario) {
-            usuarios.push(usuario)
+            usuarios.push(usuario);
           });
-          promessa.resolve(usuarios)
+          promessa.resolve(usuarios);
 
-        })
+        });
       return promessa.promise;
     },
     inserir: function (usuario) {
@@ -18,4 +18,4 @@ angular.module('usuarios').factory("UsuariosFactory", function ($q, $http) {
 
     }
   };
-})
+});

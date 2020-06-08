@@ -7,7 +7,7 @@ angular.module("usuarios").controller("UsuariosController", function ($scope, Us
         });
     }
 
-    $scope.novoUsuario = {}
+    $scope.novoUsuario = {};
 
     $scope.addUsuario = function () {
         var usuario = {

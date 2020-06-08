@@ -7,4 +7,7 @@ usuarios.config(['$routeProvider', function ($routeProvider) {
     .when('/', {
       templateUrl: 'templates/form.templates.html'
     })
+    .otherwise({
+      templateUrl: 'templates/form.templates.html'
+    })
 }]);
